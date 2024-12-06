@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: lime;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#menu a {
+    color: lime;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#menu a:hover {
+    background-color: #333;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plan {
+    width: 30%;
+    background-color: #222;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.plan h2 {
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style-type: none;
+}
+
+.plan li {
+    padding: 8px;
+}
+
+.plan button {
+    width: 100%;
+    background-color: lime;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.freemium {
+    background-color: #444;
+}
+
+.plus {
+    background-color: #333;
+}
+
+.pro {
+    background-color: #222;
+}
+
+#chatbox {
+    width: 100%;
+    height: 300px;
+    border: 2px solid lime;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#chat-widget {
+    margin-top: 20px;
+}
+
+form button {
+    margin: 10px;
+    padding: 10px;
+    background-color: lime;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
